@@ -20,6 +20,7 @@ app.use("/hermes/*", createProxyMiddleware({
 
 app.use("/", createProxyMiddleware({
   target: REACT_SERVICE_URL,
+  ws: true,
   changeOrigin: true,
 }));
 
