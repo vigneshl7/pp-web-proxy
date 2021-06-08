@@ -1,0 +1,51 @@
+{
+  "status": "ok",
+  "product": {
+    "id": 632890,
+    "vendor_id": 418,
+    "name": "Ge 15.5 Cu. Ft. Top Freezer Refrigerator In Black, Energy Star",
+    "image_url": "https://res.cloudinary.com/purchasing-platform-llc/image/upload/HDR_1000053468",
+    "stock_status": "This Item May Take 4-6 Weeks For Delivery. A Representative Will Reach Out To Schedule A Delivery Time After Your Order Is Placed.",
+    "status": "call_for_pricing",
+    "execution_type": "automatic",
+    "full_price": 657.09,
+    "retail_price": 760.74,
+    "savings_percent": 14,
+    "core": true,
+    "best_deal": true,
+    "corporate": true,
+    "favorite": false,
+    "root_category_id": 5459,
+    "bundle_product": null,
+    "vendor_code": "1000053468",
+    "vendor_name": "The Home Depot: Retail",
+    "manufacturer_code": "GTE16GTHBB",
+    "manufacturer_name": "Ge",
+    "unit_of_measure": "EA",
+    "unit_qty": 1,
+    "sold_qty": 1,
+    "long_description": "Your 15.5 cu. ft. Top-Freezer Refrigerator in Black features upfront temperature controls that make it simple to regulate both the fresh food and freezer sections. Adjustable spill-proof glass shelves provide flexibility to meet your storage needs. GE appliances provide up-to-date technology and exceptional quality to simplify the way you live. With a timeless appearance, this family of appliances is ideal for your family. And, coming from one of the most trusted names in America, you know that this entire selection of appliances is as advanced as it is practical.\n\nAdjustable spillproof glass shelves. \nLarge 11.55 cu. ft. fresh food capacity provides additional interior space, while 4.01 cu. ft. freezer capacity allows for additional storage. \nUpfront temperature controls are easy to use and make it simple to regulate both fresh food and freezer sections. \nAdjustable spillproof glass shelves hold up to 12 oz. of spilled liquids for easy cleanup and adjust to provide additional food-storage options. \nAdjustable-humidity drawers controls helps food stay fresh. \nGallon door storage bins enable larger items to be easily accommodated in the door. \nOptional (IM4D) icemaker sold separately eliminates the need to fill ice trays and ensures you have a steady supply of ice on hand. \nWire freezer shelf and 2 fixed door shelves provide additional storage for frozen foods. \nSmooth color-matched door handles provide a premium appearance. \nSingle-level incandescent interior lighting provides ample light in the fresh food section. \n2 door Top-Freezer Refrigerator has one freezer door and one fresh food door. \nLimited 1-year entire appliance warranty.  This item typically ships in 3-5 business days.  A representative will reach out to schedule a delivery time after your order is placed.",
+    "service_fee": 31.29,
+    "currency": "usd",
+    "categories": [5459, 8977],
+    "description": "****ORDER TODAY. APPLIANCE DELIVERIES MAY TAKE UP TO 4 TO 6 WEEKS DUE TO NATIONWIDE SUPPLY CHAIN CONSTRAINTS****\n \n\n\n\nADDITIONAL OPTIONS:  \nNeed it installed? Add SKU# 632691 to your shopping cart to have Home Depot install this product.\nNeed an old dishwasher removed? Add SKU# 632692 to your shopping cart to have Home Depot haul an old unit away. \nNeed an installation kit? Add SKU# 632694 to your shopping cart to have Home Depot bring the supply line and installation hardware for this product.\nNeed a power cord?  Add SKU# 633286 to your shopping cart to have Home Depot bring a 110v power cord for this product. This item typically ships in 3-5 business days.  A representative will reach out to schedule a delivery time after your order is placed.",
+    "shipping_timeframe": "This Item May Take 4-6 Weeks For Delivery. A Representative Will Reach Out To Schedule A Delivery Time After Your Order Is Placed.",
+    "description_attributes": [],
+    "keywords": [
+      "refrigerator",
+      "fridge",
+      "black fridge",
+      "black refrigerator",
+      "gepackage1-black"
+    ],
+    "searchable": true,
+    "enabled": true,
+    "variant_required": false,
+    "cut_off_info": {
+      "has_cut_off": false,
+      "seconds_to_cut_off": null,
+      "user_time_zone": "Pacific Time"
+    },
+    "vendor_fees": []
+  }
+}

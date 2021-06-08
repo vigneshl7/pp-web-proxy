@@ -18,6 +18,17 @@ app.use("/hermes/*", createProxyMiddleware({
   changeOrigin: true,
 }));
 
+app.get("/api/:file", (req, res) => {
+  try {
+    const data = require(`./mocks/${req.params.file}.json`);
+    res.json(data);
+  } catch (e) {
+    res.status(404).json({
+      message: 'URL not found'
+    });
+  }
+});
+
 app.use("/", createProxyMiddleware({
   target: REACT_SERVICE_URL,
   ws: true,
