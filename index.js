@@ -18,7 +18,23 @@ app.use("/hermes/*", createProxyMiddleware({
   changeOrigin: true,
 }));
 
-app.get("/api/:file", (req, res) => {
+app.use(
+  "/api/*",
+  createProxyMiddleware({
+    target: API_SERVICE_URL,
+    changeOrigin: true,
+  }),
+);
+
+app.use(
+  "/catalog/*",
+  createProxyMiddleware({
+    target: API_SERVICE_URL,
+    changeOrigin: true,
+  }),
+);
+
+app.get("/mocks/:file", (req, res) => {
   try {
     const data = require(`./mocks/${req.params.file}.json`);
     res.json(data);
