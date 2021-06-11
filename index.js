@@ -2,9 +2,10 @@ const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
 const { createProxyMiddleware } = require("http-proxy-middleware");
+require('dotenv').config();
 
-const API_SERVICE_URL = "https://dev1.purchasingplatform.com/"
-const REACT_SERVICE_URL = "http://localhost:3000/"
+const API_SERVICE_URL = process.env.API_SERVICE_URL;
+const REACT_SERVICE_URL = process.env.REACT_SERVICE_URL;
 
 const app = express();
 
