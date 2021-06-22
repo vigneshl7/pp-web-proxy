@@ -35,6 +35,14 @@ app.use(
   }),
 );
 
+app.use(
+  "/login",
+  createProxyMiddleware({
+    target: API_SERVICE_URL,
+    changeOrigin: true,
+  }),
+);
+
 app.get("/mocks/:file", (req, res) => {
   try {
     const data = require(`./mocks/${req.params.file}.json`);
