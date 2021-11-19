@@ -10,14 +10,14 @@ const REACT_SERVICE_URL = process.env.REACT_SERVICE_URL;
 const app = express();
 
 app.use(cors({
-  origin: "localhost:3000"
+  origin: "localhost:5500"
 }));
 app.use(morgan("dev"));
 
-app.use("/hermes/*", createProxyMiddleware({
-  target: API_SERVICE_URL,
-  changeOrigin: true,
-}));
+// app.use("/hermes/*", createProxyMiddleware({
+//   target: API_SERVICE_URL,
+//   changeOrigin: true,
+// }));
 
 app.use(
   "/api/*",
@@ -27,13 +27,13 @@ app.use(
   }),
 );
 
-app.use(
-  "/catalog/*",
-  createProxyMiddleware({
-    target: API_SERVICE_URL,
-    changeOrigin: true,
-  }),
-);
+// app.use(
+//   "/catalog/*",
+//   createProxyMiddleware({
+//     target: API_SERVICE_URL,
+//     changeOrigin: true,
+//   }),
+// );
 
 app.get("/mocks/:file", (req, res) => {
   try {
